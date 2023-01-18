@@ -3,7 +3,7 @@ A pipeline to create labelled datasets. Datasets include images in '.pdf', '.png
 
 An example of a generated image:
 
-<img src="https://user-images.githubusercontent.com/67972115/213142453-40bac2d7-0e4e-49c7-9b37-88ddff5d52e0.png" width=75% height=75%>
+<img src="https://user-images.githubusercontent.com/67972115/213142453-40bac2d7-0e4e-49c7-9b37-88ddff5d52e0.png" width=25% height=25%>
 
 
 
