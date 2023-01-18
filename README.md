@@ -14,11 +14,13 @@ An example of some generic labelled data (from a '.json' file):
 
 ## How to start
 
-Download all files and arrange your folders as follows:
+Download all files and arrange your project directory as follows:
 
-- project_folder
-- Item 2
-- Item 3
-  - Sub Item 1
-  - Sub Item 2
-    - Sub Item 4
+- /project_folder
+  - records_dataset.py
+  - subjects.json
+  - schools.json
+    - /badges
+      - recuerdo_badge.png
+    - /signatures
+      - this_is_a_signature.png
