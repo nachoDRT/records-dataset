@@ -1,7 +1,7 @@
 # records-dataset
 
 ## Introduction
-A pipeline to create labelled datasets. Datasets include images in '.png' format (additionally, a '.pdf' file is included). A corresponding '.json' file gathers the label information for every '.png' image.
+A pipeline to create labelled images datasets. The record-dataset is about schools' transcripts-of-records. Dataset includes images in '.png' format (additionally, a '.pdf' file is included). A corresponding '.json' file gathers the label information for every '.png' image.
 
 An example of a generated '.png' image:
 
@@ -24,3 +24,5 @@ Download all files and arrange your project directory as follows:
       - recuerdo_badge.png
     - /signatures
       - this_is_a_signature.png
+      
+Run records_dataset.py
