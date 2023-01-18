@@ -1,7 +1,8 @@
 # records-dataset
 A pipeline to create labelled datasets. Datasets include images in '.pdf', '.png' format. A corresponding '.json' file gathers the label information for every image.
 
-An example of a generated image:![0000_0](https://user-images.githubusercontent.com/67972115/213142453-40bac2d7-0e4e-49c7-9b37-88ddff5d52e0.png)
+An example of a generated image:
+<img src="https://user-images.githubusercontent.com/67972115/213142453-40bac2d7-0e4e-49c7-9b37-88ddff5d52e0.png" width=50% height=50%>
 
 
 
