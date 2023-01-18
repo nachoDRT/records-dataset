@@ -6,4 +6,4 @@ An example of a generated image:![0000_0](https://user-images.githubusercontent.
 
 
 An example of some generic labelled data:
-![label_doc](https://user-images.githubusercontent.com/67972115/213140151-bc527852-bc41-44cf-9691-4a94bdd251e4.png|width=100)
+![label_doc](https://user-images.githubusercontent.com/67972115/213140151-bc527852-bc41-44cf-9691-4a94bdd251e4.png | width=100)
