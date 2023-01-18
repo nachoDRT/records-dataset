@@ -1,0 +1,31 @@
+{
+    "subjects": {
+
+        "biologia": ["Biología"],
+        "biologia_y_geologia": ["Biología y Geología", "Biología", "Geología"],
+        "geografia_e_historia": ["Geografía e Historia", "Geografía", "Historia"],
+        "lengua_castellana": ["Lengua", "Lengua Castellana", "Literatura", "Lengua y Literatura", "Lengua Española", "Lengua Castellana y Literatura"],
+        "ingles": ["Inglés", "Primera Lengua Extranjera: Inglés"],
+        "matematicas": ["Matemáticas", "Cálculo", "Matemáticas Aplicadas", "Álgebra", "Matemáticas para las Enseñanzas Académicas", "Matemáticas Aplicadas a las Ciencias Sociales"],
+        "religion": ["Religión"],
+        "fisica_y_quimica": ["Física y Química", "Física", "Química"],
+        "frances": ["Francés", "Segunda Lengua Extranjera: Francés"],
+        "aleman": ["Alemán", "Segunda Lengua Extranjera: Alemán"],
+        "educacion_fisica": ["Educación Física"],
+        "educacion_plastica": ["Educación Plástica", "Educación Plástica Visual"],
+        "musica": ["Música"],
+        "tecnologia": ["Tecnología", "Tecnologías de la Información y la Comunicación"],
+        "educacion_etico_civica": ["Ética", "Valores"],
+        "informatica": ["Informática"],
+        "latin": ["Latín"],
+        "filosofia": ["Filosofía"],
+        "historia": ["Historia", "Historia Española", "Historia Universal"],
+        "griego": ["Griego"],
+        "ciencias_naturales": ["Ciencias Naturales"],
+        "ciencias_del_mundo": ["Ciencias del Mundo", "Cultura Clásica", "Historia del Mundo Contemporáneo"],
+        "economia": ["Economía"],
+        "dibujo_tecnico": ["Dibujo Técnico"],
+        "dibujo_artistico": ["Dibujo Artístico"],
+        "media": ["Media", "Nota Media", "Nota Media (con Religión)", "Nota Media (sin optativas)"]
+    }
+}

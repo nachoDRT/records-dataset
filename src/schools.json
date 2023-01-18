@@ -1,0 +1,192 @@
+{
+    "schools": [
+        {
+            "name": "Nuestra Señora del Recuerdo",
+            "nickname": "recuerdo",
+            "location": {
+                "street": "Plaza Duque de Pastrana",
+                "number": 5,
+                "zip_code": 28036,
+                "city": "Madrid"
+            },
+            "phone_number": 913022640,
+            "web": "www.recuerdo.net",
+            "email": "recuerdo@recuerdo.net",
+            "text_1": {
+                "class": "relevant",
+                "style": "B",
+                "size": 14,
+                "align": "C",
+                "fragmenT": "EDUCACIÓN SECUNDARIA OBLIGATORIA"
+            },
+            "text_2": {
+                "class": "relevant",
+                "style": "B",
+                "size": 10,
+                "align": "C",
+                "fragment": "ACREDITACIÓN DE LA EVALUACIÓN"
+            },
+            "text_3": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "Dª {}, secretaria del centro Nuestra Señora del Recuerdo",
+                "gaps": [
+                    "secretary_name"
+                ]
+            },
+            "text_4": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "CERTIFICO: Que la alumna {}, ha obtenido:",
+                "gaps": [
+                    "student_name"
+                ]
+            },
+            "text_5": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "Igualmente certifico que la alumna ha estado escalorizada en {}, en el curso académico {}.",
+                "gaps": [
+                    "academic_year",
+                    "natural_year"
+                ]
+            },
+            "text_6": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "La alumna reúne las condiciones necesarias para que le sea expedido el TÍTULO DE GRADUADO EN {}.",
+                "gaps": [
+                    "academic_programme"
+                ]
+            },
+            "table": {
+                "cells": "alpha_numeric",
+                "column_sizes": [70, 40],
+                "column_questions": [
+                    {
+                        "text": "ÁREAS"
+                    },
+                    {
+                        "text": "CURSO"
+                    }
+                ],
+                "row_questions": [
+                    {
+                        "text": "frances"
+                    },
+                    {
+                        "text": "ciencias_del_mundo"
+                    },
+                    {
+                        "text": "educacion_fisica"
+                    },
+                    {
+                        "text": "religion"
+                    },
+                    {
+                        "text": "lengua_castellana"
+                    },
+                    {
+                        "text": "matematicas"
+                    },
+                    {
+                        "text": "geografia_e_historia"
+                    },
+                    {
+                        "text": "ingles"
+                    },
+                    {
+                        "text": "biologia_y_geologia"
+                    },
+                    {
+                        "text": "fisica_y_quimica"
+                    },
+                    {
+                        "text": "media",
+                        "align_exception": "R",
+                        "mean_value": "True"
+                    }
+                ],
+                "edges": {
+                        "column_questions": "all",
+                        "row_questions": "all",
+                        "cells": "all"
+                },
+                "styles": {
+                        "column_questions": "B",
+                        "row_questions": "",
+                        "cells": ""
+                },
+                "sizes": {
+                        "column_questions": 12,
+                        "row_questions": 9,
+                        "cells": 9
+                },
+                "aligns": {
+                        "column_questions": "C",
+                        "row_questions": "L",
+                        "cells": "C"
+                }
+            }
+        },
+        {
+            "name": "Retamar",
+            "nickname": "retamar",
+            "location": [
+                {
+                    "street": "Pajares",
+                    "number": 22,
+                    "zip_code": 28223,
+                    "city": "Pozuelo de Alarcón"
+                }
+            ],
+            "phone_number": 917141022,
+            "web": "retamar.com",
+            "email": "-",
+            "text_1": "-",
+            "text_2": "-"
+        },
+        {
+            "name": "Fomento Fundación",
+            "nickname": "fundacion",
+            "location": [
+                {
+                    "street": "Padre Claret",
+                    "number": 23,
+                    "zip_code": 28002,
+                    "city": "Madrid"
+                }
+            ],
+            "phone_number": 914134125,
+            "web": "www.fomentofundacion.com",
+            "email": "BachilleratoFF@fomento.edu",
+            "text_1": "-",
+            "text_2": "-"
+        },
+        {
+            "name": "-",
+            "nickname": "-",
+            "location": [
+                {
+                    "street": "-",
+                    "number": "-",
+                    "zip_code": "-",
+                    "city": "-"
+                }
+            ],
+            "phone_number": "-",
+            "web": "-",
+            "email": "-",
+            "text_1": "-",
+            "text_2": "-"
+        }
+    ]
+}
