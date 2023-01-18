@@ -9,4 +9,4 @@ An example of a generated image:
 
 An example of some generic labelled data:
 
-<img src="https://user-images.githubusercontent.com/67972115/213140151-bc527852-bc41-44cf-9691-4a94bdd251e4.png" width=45% height=45%>
+<img src="https://user-images.githubusercontent.com/67972115/213140151-bc527852-bc41-44cf-9691-4a94bdd251e4.png" width=35% height=35%>
