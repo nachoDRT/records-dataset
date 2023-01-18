@@ -3,10 +3,10 @@ A pipeline to create labelled datasets. Datasets include images in '.pdf', '.png
 
 An example of a generated image:
 
-<img src="https://user-images.githubusercontent.com/67972115/213142453-40bac2d7-0e4e-49c7-9b37-88ddff5d52e0.png" width=25% height=25%>
+<img src="https://user-images.githubusercontent.com/67972115/213142453-40bac2d7-0e4e-49c7-9b37-88ddff5d52e0.png" width=35% height=35%>
 
 
 
 An example of some generic labelled data:
 
-<img src="https://user-images.githubusercontent.com/67972115/213140151-bc527852-bc41-44cf-9691-4a94bdd251e4.png" width=50% height=50%>
+<img src="https://user-images.githubusercontent.com/67972115/213140151-bc527852-bc41-44cf-9691-4a94bdd251e4.png" width=45% height=45%>
