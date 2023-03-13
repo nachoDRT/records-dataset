@@ -1,32 +1,32 @@
 {
-    "latin": {
-        "grade": 10
-    },
-    "ciencias_del_mundo": {
-        "grade": 9
-    },
-    "frances": {
-        "grade": 0
-    },
     "griego": {
-        "grade": 6
-    },
-    "musica": {
-        "grade": 4
+        "grade": 2
     },
     "economia": {
         "grade": 2
     },
-    "biologia_y_geologia": {
-        "grade": 3
-    },
-    "dibujo_artistico": {
-        "grade": 1
-    },
-    "educacion_etico_civica": {
+    "aleman": {
         "grade": 9
     },
-    "geografia_e_historia": {
+    "matematicas": {
+        "grade": 9
+    },
+    "latin": {
+        "grade": 9
+    },
+    "dibujo_tecnico": {
+        "grade": 0
+    },
+    "media": {
+        "grade": 9
+    },
+    "ingles": {
+        "grade": 0
+    },
+    "ciencias_del_mundo": {
         "grade": 8
+    },
+    "biologia_y_geologia": {
+        "grade": 7
     }
 }

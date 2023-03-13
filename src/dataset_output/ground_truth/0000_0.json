@@ -1,32 +1,32 @@
 {
-    "matematicas": {
-        "grade": 5
-    },
-    "ciencias_naturales": {
-        "grade": 3
-    },
-    "lengua_castellana": {
-        "grade": 7
-    },
-    "biologia": {
-        "grade": 7
-    },
-    "media": {
-        "grade": 5
+    "fisica_y_quimica": {
+        "grade": 10
     },
     "informatica": {
-        "grade": 7
+        "grade": 8
+    },
+    "frances": {
+        "grade": 2
+    },
+    "lengua_castellana": {
+        "grade": 9
     },
     "educacion_etico_civica": {
-        "grade": 5
-    },
-    "filosofia": {
-        "grade": 6
+        "grade": 1
     },
     "geografia_e_historia": {
+        "grade": 10
+    },
+    "matematicas": {
         "grade": 9
     },
-    "musica": {
-        "grade": 9
+    "economia": {
+        "grade": 7
+    },
+    "biologia_y_geologia": {
+        "grade": 5
+    },
+    "educacion_fisica": {
+        "grade": 8
     }
 }

@@ -1,32 +1,32 @@
 {
-    "biologia_y_geologia": {
+    "economia": {
         "grade": 2
     },
-    "religion": {
+    "ciencias_naturales": {
+        "grade": 5
+    },
+    "fisica_y_quimica": {
+        "grade": 3
+    },
+    "ciencias_del_mundo": {
+        "grade": 3
+    },
+    "educacion_etico_civica": {
+        "grade": 6
+    },
+    "historia": {
+        "grade": 6
+    },
+    "informatica": {
         "grade": 6
     },
     "latin": {
-        "grade": 0
-    },
-    "frances": {
-        "grade": 1
-    },
-    "musica": {
-        "grade": 8
-    },
-    "ciencias_del_mundo": {
-        "grade": 9
-    },
-    "lengua_castellana": {
         "grade": 10
     },
-    "fisica_y_quimica": {
-        "grade": 0
+    "educacion_plastica": {
+        "grade": 7
     },
-    "informatica": {
-        "grade": 3
-    },
-    "historia": {
-        "grade": 10
+    "matematicas": {
+        "grade": 2
     }
 }
