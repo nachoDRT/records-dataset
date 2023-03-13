@@ -11,11 +11,13 @@ ENGLISH = False
 
 if ENGLISH:
     LANGUAGE = "eng"
-    ACADEMIC_YEARS = ["3rd highschool year", "4th highschool year"]
+    # ACADEMIC_YEARS = ["3rd highschool year", "4th highschool year"]
+    ACADEMIC_YEARS = ["3rd highschool year"]
 
 else:
     LANGUAGE = "esp"
-    ACADEMIC_YEARS = ["3º de la ESO", "4º de la ESO"]
+    # ACADEMIC_YEARS = ["3º de la ESO", "4º de la ESO"]
+    ACADEMIC_YEARS = ["3º de la ESO"]
 
 PDF_DOCS_FOLDER = os.path.join(os.getcwd(), "synthetic_pdf_docs")
 PNG_DOCS_FOLDER = os.path.join(os.getcwd(), "synthetic_png_docs")
@@ -24,7 +26,7 @@ DSET_IMGS_FOLDER = os.path.join(os.getcwd(), "dataset_output", "images")
 DSET_ANNOTATIONS_FOLDER = os.path.join(os.getcwd(), "dataset_output", "annotations")
 DSET_GROUND_TRUTH_FOLDER = os.path.join(os.getcwd(), "dataset_output", "ground_truth")
 
-STUDENTS = 1000
+STUDENTS = 10
 
 EDUCATION_LEVEL = ["EDUCACIÓN SECUNDARIA OBLIGATORIA"]
 # SCHOOL_NICKNAME(s) ara available in 'res/schools/schools_*language*.json'
@@ -76,9 +78,19 @@ if __name__ == "__main__":
     )
     secretary_name = sr.create_secretary_profile(names=names, family_names=family_names)
 
+    # The number of texts available to include are available in 'res/schools/schools_*language*.json'
+    texts_to_include = [
+        "text_1",
+        "text_2",
+        "text_3",
+        "text_4",
+        "text_5",
+    ]
+
     for student in tqdm(range(STUDENTS)):
 
         pdf_instance = Pdf_records()
+        pdf_instance.set_now_date(lang=LANGUAGE)
         student_profile, student_name = sr.create_student_profile(
             names=names, family_names=family_names
         )
@@ -90,7 +102,7 @@ if __name__ == "__main__":
             header_info=True,
             lang=LANGUAGE,
         )
-        pdf_instance.body_features_setter()
+        pdf_instance.body_features_setter(texts_to_include)
         pdf_instance.random_subjects_setter(copy.deepcopy(subjects_semantic))
         list_of_dicts = []
 
@@ -219,6 +231,7 @@ if __name__ == "__main__":
             )
 
             # Save the '.json' with ground truth
+            # TODO Error when more than 1 academic year
             sr.generate_json(
                 json_path=DSET_GROUND_TRUTH_FOLDER,
                 json_number=id,

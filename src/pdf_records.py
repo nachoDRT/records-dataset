@@ -456,27 +456,38 @@ class Pdf_records(FPDF):
 
         pass
 
+    def set_now_date(self, lang):
+
+        now = datetime.datetime.now()
+
+        if lang == "eng":
+            self.today = "".join(
+                [str(now.day), "th ", "of February", " of ", str(now.year)]
+            )
+
+        elif lang == "esp":
+            self.today = "".join(
+                [str(now.day), " del ", str(now.month), " de ", str(now.year)]
+            )
+        else:
+            warn_message = "".join(["WARNING: ", lang, "is not implemented yet."])
+            print(warn_message)
+
     def signature(self, lang: str, head_studies: str):
 
         self.set_y(self.get_y())
         self.set_x(95)
         self.set_font("helvetica", size=10)
 
-        now = datetime.datetime.now()
-
         if lang == "eng":
             info_about_head = "".join(["Head of Studies at ", self.school["name"]])
-            today = "".join([str(now.day), "th ", "of February", " of ", str(now.year)])
-            date_and_place = "".join(["Leeds, ", today])
+            date_and_place = "".join(["Leeds, ", self.today])
 
         elif lang == "esp":
             info_about_head = "".join(
                 ["Jefatura de Estudios del C. ", self.school["name"]]
             )
-            today = "".join(
-                [str(now.day), " del ", str(now.month), " de ", str(now.year)]
-            )
-            date_and_place = "".join(["Madrid, a ", today])
+            date_and_place = "".join(["Madrid, a ", self.today])
 
         else:
             warn_message = "".join(["WARNING: ", lang, "is not implemented yet."])
@@ -683,18 +694,9 @@ class Pdf_records(FPDF):
             warn_message = "".join(["WARNING: ", lang, "is not implemented yet."])
             print(warn_message)
 
-    def body_features_setter(self):
+    def body_features_setter(self, texts_to_include: list):
 
-        self.texts_to_include = [
-            "text_1",
-            "text_2",
-            "text_3",
-            "text_4",
-            "text_5",
-            "text_6",
-            "text_7",
-            "text_8",
-        ]
+        self.texts_to_include = texts_to_include
 
     def random_subjects_setter(self, subjects_semantic: dict):
 
