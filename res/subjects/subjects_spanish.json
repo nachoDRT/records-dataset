@@ -1,0 +1,113 @@
+{
+    "subjects": {
+        "aleman": [
+            "Alemán",
+            "Segunda Lengua Extranjera: Alemán"
+        ],
+        "biologia": [
+            "Biología"
+        ],
+        "biologia_y_geologia": [
+            "Biología y Geología",
+            "Biología",
+            "Geología"
+        ],
+        "ciencias_del_mundo": [
+            "Ciencias del Mundo",
+            "Cultura Clásica",
+            "Historia del Mundo Contemporáneo"
+        ],
+        "ciencias_naturales": [
+            "Ciencias Naturales"
+        ],
+        "dibujo_artistico": [
+            "Dibujo Artístico"
+        ],
+        "dibujo_tecnico": [
+            "Dibujo Técnico"
+        ],
+        "economia": [
+            "Economía"
+        ],
+        "educacion_etico_civica": [
+            "Ética",
+            "Valores"
+        ],
+        "educacion_fisica": [
+            "Educación Física"
+        ],
+        "educacion_plastica": [
+            "Educación Plástica",
+            "Educación Plástica Visual"
+        ],
+        "filosofia": [
+            "Filosofía"
+        ],
+        "fisica_y_quimica": [
+            "Física y Química",
+            "Física",
+            "Química"
+        ],
+        "frances": [
+            "Francés",
+            "Segunda Lengua Extranjera: Francés"
+        ],
+        "geografia_e_historia": [
+            "Geografía e Historia",
+            "Geografía",
+            "Historia"
+        ],
+        "griego": [
+            "Griego"
+        ],
+        "historia": [
+            "Historia",
+            "Historia Española",
+            "Historia Universal"
+        ],
+        "informatica": [
+            "Informática"
+        ],
+        "ingles": [
+            "Inglés",
+            "Primera Lengua Extranjera: Inglés"
+        ],
+        "latin": [
+            "Latín"
+        ],
+        "lengua_castellana": [
+            "Lengua",
+            "Lengua Castellana",
+            "Literatura",
+            "Lengua y Literatura",
+            "Lengua Española",
+            "Lengua Castellana y Literatura"
+        ],
+        "matematicas": [
+            "Matemáticas",
+            "Cálculo",
+            "Matemáticas Aplicadas",
+            "Álgebra",
+            "Matemáticas para las Enseñanzas Académicas",
+            "Matemáticas Aplicadas a las Ciencias Sociales"
+        ],
+        "musica": [
+            "Música"
+        ],
+        "media": [
+            "Media",
+            "Nota Media",
+            "Nota Media (con Religión)",
+            "Nota Media (sin optativas)",
+            "Media Curso",
+            "Nota Media del Curso"
+        ],
+        "religion": [
+            "Religión"
+        ],
+        "tecnologia": [
+            "Tecnología",
+            "Tecnologías de la Información y la Comunicación"
+        ]
+    }
+}
