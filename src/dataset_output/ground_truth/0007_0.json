@@ -1,0 +1,32 @@
+{
+    "historia": {
+        "grade": 0
+    },
+    "educacion_fisica": {
+        "grade": 1
+    },
+    "informatica": {
+        "grade": 5
+    },
+    "fisica_y_quimica": {
+        "grade": 7
+    },
+    "dibujo_tecnico": {
+        "grade": 5
+    },
+    "latin": {
+        "grade": 1
+    },
+    "educacion_etico_civica": {
+        "grade": 8
+    },
+    "frances": {
+        "grade": 1
+    },
+    "ciencias_del_mundo": {
+        "grade": 9
+    },
+    "aleman": {
+        "grade": 7
+    }
+}

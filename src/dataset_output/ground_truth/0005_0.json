@@ -1,0 +1,32 @@
+{
+    "matematicas": {
+        "grade": 2
+    },
+    "filosofia": {
+        "grade": 4
+    },
+    "media": {
+        "grade": 5
+    },
+    "educacion_plastica": {
+        "grade": 6
+    },
+    "musica": {
+        "grade": 4
+    },
+    "economia": {
+        "grade": 0
+    },
+    "fisica_y_quimica": {
+        "grade": 10
+    },
+    "aleman": {
+        "grade": 6
+    },
+    "ciencias_naturales": {
+        "grade": 10
+    },
+    "geografia_e_historia": {
+        "grade": 6
+    }
+}

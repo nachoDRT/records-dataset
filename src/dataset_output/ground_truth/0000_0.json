@@ -1,0 +1,32 @@
+{
+    "matematicas": {
+        "grade": 5
+    },
+    "ciencias_naturales": {
+        "grade": 3
+    },
+    "lengua_castellana": {
+        "grade": 7
+    },
+    "biologia": {
+        "grade": 7
+    },
+    "media": {
+        "grade": 5
+    },
+    "informatica": {
+        "grade": 7
+    },
+    "educacion_etico_civica": {
+        "grade": 5
+    },
+    "filosofia": {
+        "grade": 6
+    },
+    "geografia_e_historia": {
+        "grade": 9
+    },
+    "musica": {
+        "grade": 9
+    }
+}

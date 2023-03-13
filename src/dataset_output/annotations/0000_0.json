@@ -1,0 +1,1905 @@
+{
+    "form": [
+        {
+            "box": [
+                292,
+                118,
+                759,
+                165
+            ],
+            "text": "Nuestra Se\u00f1ora del Recuerdo",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        292,
+                        118,
+                        424,
+                        165
+                    ],
+                    "text": "Nuestra"
+                },
+                {
+                    "box": [
+                        424,
+                        118,
+                        544,
+                        165
+                    ],
+                    "text": "Se\u00f1ora"
+                },
+                {
+                    "box": [
+                        544,
+                        118,
+                        599,
+                        165
+                    ],
+                    "text": "del"
+                },
+                {
+                    "box": [
+                        599,
+                        118,
+                        759,
+                        165
+                    ],
+                    "text": "Recuerdo"
+                }
+            ],
+            "linking": [],
+            "id": 0
+        },
+        {
+            "box": [
+                291,
+                151,
+                847,
+                199
+            ],
+            "text": "Plaza Duque de Pastrana, 5, 28036, Madrid, ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        291,
+                        151,
+                        369,
+                        199
+                    ],
+                    "text": "Plaza"
+                },
+                {
+                    "box": [
+                        369,
+                        151,
+                        458,
+                        199
+                    ],
+                    "text": "Duque"
+                },
+                {
+                    "box": [
+                        458,
+                        151,
+                        496,
+                        199
+                    ],
+                    "text": "de"
+                },
+                {
+                    "box": [
+                        496,
+                        151,
+                        622,
+                        199
+                    ],
+                    "text": "Pastrana,"
+                },
+                {
+                    "box": [
+                        622,
+                        151,
+                        652,
+                        199
+                    ],
+                    "text": "5,"
+                },
+                {
+                    "box": [
+                        652,
+                        151,
+                        744,
+                        199
+                    ],
+                    "text": "28036,"
+                },
+                {
+                    "box": [
+                        744,
+                        151,
+                        844,
+                        199
+                    ],
+                    "text": "Madrid,"
+                }
+            ],
+            "linking": [],
+            "id": 1
+        },
+        {
+            "box": [
+                291,
+                185,
+                553,
+                232
+            ],
+            "text": "Tel\u00e9fono: 913022640",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        291,
+                        185,
+                        411,
+                        232
+                    ],
+                    "text": "Tel\u00e9fono:"
+                },
+                {
+                    "box": [
+                        411,
+                        185,
+                        553,
+                        232
+                    ],
+                    "text": "913022640"
+                }
+            ],
+            "linking": [],
+            "id": 2
+        },
+        {
+            "box": [
+                291,
+                219,
+                587,
+                266
+            ],
+            "text": "Web: www.recuerdo.net",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        291,
+                        219,
+                        360,
+                        266
+                    ],
+                    "text": "Web:"
+                },
+                {
+                    "box": [
+                        360,
+                        219,
+                        587,
+                        266
+                    ],
+                    "text": "www.recuerdo.net"
+                }
+            ],
+            "linking": [],
+            "id": 3
+        },
+        {
+            "box": [
+                291,
+                253,
+                666,
+                300
+            ],
+            "text": "eMail: recuerdo@recuerdo.net",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        291,
+                        253,
+                        369,
+                        300
+                    ],
+                    "text": "eMail:"
+                },
+                {
+                    "box": [
+                        369,
+                        253,
+                        666,
+                        300
+                    ],
+                    "text": "recuerdo@recuerdo.net"
+                }
+            ],
+            "linking": [],
+            "id": 4
+        },
+        {
+            "box": [
+                438,
+                346,
+                1237,
+                393
+            ],
+            "text": "EDUCACI\u00d3N SECUNDARIA OBLIGATORIA ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        438,
+                        346,
+                        686,
+                        393
+                    ],
+                    "text": "EDUCACI\u00d3N"
+                },
+                {
+                    "box": [
+                        686,
+                        346,
+                        955,
+                        393
+                    ],
+                    "text": "SECUNDARIA"
+                },
+                {
+                    "box": [
+                        955,
+                        346,
+                        1237,
+                        393
+                    ],
+                    "text": "OBLIGATORIA"
+                }
+            ],
+            "linking": [],
+            "id": 5
+        },
+        {
+            "box": [
+                583,
+                409,
+                1086,
+                456
+            ],
+            "text": "ACREDITACI\u00d3N DE LA EVALUACI\u00d3N ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        583,
+                        409,
+                        805,
+                        456
+                    ],
+                    "text": "ACREDITACI\u00d3N"
+                },
+                {
+                    "box": [
+                        805,
+                        409,
+                        851,
+                        456
+                    ],
+                    "text": "DE"
+                },
+                {
+                    "box": [
+                        851,
+                        409,
+                        895,
+                        456
+                    ],
+                    "text": "LA"
+                },
+                {
+                    "box": [
+                        895,
+                        409,
+                        1086,
+                        456
+                    ],
+                    "text": "EVALUACI\u00d3N"
+                }
+            ],
+            "linking": [],
+            "id": 6
+        },
+        {
+            "box": [
+                86,
+                472,
+                1080,
+                519
+            ],
+            "text": "D\u00aa Consuelo Mart\u00ednez Vega, secretaria del centro Nuestra Se\u00f1ora del Recuerdo ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        86,
+                        472,
+                        125,
+                        519
+                    ],
+                    "text": "D\u00aa"
+                },
+                {
+                    "box": [
+                        125,
+                        472,
+                        250,
+                        519
+                    ],
+                    "text": "Consuelo"
+                },
+                {
+                    "box": [
+                        250,
+                        472,
+                        365,
+                        519
+                    ],
+                    "text": "Mart\u00ednez"
+                },
+                {
+                    "box": [
+                        365,
+                        472,
+                        445,
+                        519
+                    ],
+                    "text": "Vega,"
+                },
+                {
+                    "box": [
+                        445,
+                        472,
+                        574,
+                        519
+                    ],
+                    "text": "secretaria"
+                },
+                {
+                    "box": [
+                        574,
+                        472,
+                        618,
+                        519
+                    ],
+                    "text": "del"
+                },
+                {
+                    "box": [
+                        618,
+                        472,
+                        702,
+                        519
+                    ],
+                    "text": "centro"
+                },
+                {
+                    "box": [
+                        702,
+                        472,
+                        807,
+                        519
+                    ],
+                    "text": "Nuestra"
+                },
+                {
+                    "box": [
+                        807,
+                        472,
+                        904,
+                        519
+                    ],
+                    "text": "Se\u00f1ora"
+                },
+                {
+                    "box": [
+                        904,
+                        472,
+                        948,
+                        519
+                    ],
+                    "text": "del"
+                },
+                {
+                    "box": [
+                        948,
+                        472,
+                        1076,
+                        519
+                    ],
+                    "text": "Recuerdo"
+                }
+            ],
+            "linking": [],
+            "id": 7
+        },
+        {
+            "box": [
+                86,
+                563,
+                874,
+                610
+            ],
+            "text": "CERTIFICO: Que la alumna Homero Vidal Molina, ha obtenido: ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        86,
+                        563,
+                        252,
+                        610
+                    ],
+                    "text": "CERTIFICO:"
+                },
+                {
+                    "box": [
+                        252,
+                        563,
+                        312,
+                        610
+                    ],
+                    "text": "Que"
+                },
+                {
+                    "box": [
+                        312,
+                        563,
+                        341,
+                        610
+                    ],
+                    "text": "la"
+                },
+                {
+                    "box": [
+                        341,
+                        563,
+                        439,
+                        610
+                    ],
+                    "text": "alumna"
+                },
+                {
+                    "box": [
+                        439,
+                        563,
+                        545,
+                        610
+                    ],
+                    "text": "Homero"
+                },
+                {
+                    "box": [
+                        545,
+                        563,
+                        614,
+                        610
+                    ],
+                    "text": "Vidal"
+                },
+                {
+                    "box": [
+                        614,
+                        563,
+                        711,
+                        610
+                    ],
+                    "text": "Molina,"
+                },
+                {
+                    "box": [
+                        711,
+                        563,
+                        749,
+                        610
+                    ],
+                    "text": "ha"
+                },
+                {
+                    "box": [
+                        749,
+                        563,
+                        871,
+                        610
+                    ],
+                    "text": "obtenido:"
+                }
+            ],
+            "linking": [],
+            "id": 8
+        },
+        {
+            "box": [
+                86,
+                654,
+                914,
+                701
+            ],
+            "text": "Bravo por Filosof\u00eda, bien por Segunda Lengua Extranjera: Alem\u00e1n. ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        86,
+                        654,
+                        167,
+                        701
+                    ],
+                    "text": "Bravo"
+                },
+                {
+                    "box": [
+                        167,
+                        654,
+                        214,
+                        701
+                    ],
+                    "text": "por"
+                },
+                {
+                    "box": [
+                        214,
+                        654,
+                        334,
+                        701
+                    ],
+                    "text": "Filosof\u00eda,"
+                },
+                {
+                    "box": [
+                        334,
+                        654,
+                        394,
+                        701
+                    ],
+                    "text": "bien"
+                },
+                {
+                    "box": [
+                        394,
+                        654,
+                        441,
+                        701
+                    ],
+                    "text": "por"
+                },
+                {
+                    "box": [
+                        441,
+                        654,
+                        559,
+                        701
+                    ],
+                    "text": "Segunda"
+                },
+                {
+                    "box": [
+                        559,
+                        654,
+                        659,
+                        701
+                    ],
+                    "text": "Lengua"
+                },
+                {
+                    "box": [
+                        659,
+                        654,
+                        801,
+                        701
+                    ],
+                    "text": "Extranjera:"
+                },
+                {
+                    "box": [
+                        801,
+                        654,
+                        910,
+                        701
+                    ],
+                    "text": "Alem\u00e1n."
+                }
+            ],
+            "linking": [],
+            "id": 9
+        },
+        {
+            "box": [
+                764,
+                745,
+                880,
+                792
+            ],
+            "text": "\u00c1REAS",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        764,
+                        745,
+                        880,
+                        792
+                    ],
+                    "text": "\u00c1REAS"
+                }
+            ],
+            "linking": [],
+            "id": 10
+        },
+        {
+            "box": [
+                1195,
+                745,
+                1315,
+                792
+            ],
+            "text": "CURSO",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        1195,
+                        745,
+                        1315,
+                        792
+                    ],
+                    "text": "CURSO"
+                }
+            ],
+            "linking": [],
+            "id": 11
+        },
+        {
+            "box": [
+                553,
+                792,
+                1074,
+                840
+            ],
+            "text": "Matem\u00e1ticas Aplicadas a las Ciencias Sociales",
+            "label": "matematicas",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        792,
+                        701,
+                        840
+                    ],
+                    "text": "Matem\u00e1ticas"
+                },
+                {
+                    "box": [
+                        701,
+                        792,
+                        815,
+                        840
+                    ],
+                    "text": "Aplicadas"
+                },
+                {
+                    "box": [
+                        815,
+                        792,
+                        834,
+                        840
+                    ],
+                    "text": "a"
+                },
+                {
+                    "box": [
+                        834,
+                        792,
+                        871,
+                        840
+                    ],
+                    "text": "las"
+                },
+                {
+                    "box": [
+                        871,
+                        792,
+                        972,
+                        840
+                    ],
+                    "text": "Ciencias"
+                },
+                {
+                    "box": [
+                        972,
+                        792,
+                        1072,
+                        840
+                    ],
+                    "text": "Sociales"
+                }
+            ],
+            "linking": [],
+            "id": 12
+        },
+        {
+            "box": [
+                1248,
+                792,
+                1262,
+                840
+            ],
+            "text": "5",
+            "label": "matematicas_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        792,
+                        1262,
+                        840
+                    ],
+                    "text": "5"
+                }
+            ],
+            "linking": [],
+            "id": 13
+        },
+        {
+            "box": [
+                553,
+                840,
+                763,
+                887
+            ],
+            "text": "Ciencias Naturales",
+            "label": "ciencias_naturales",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        840,
+                        653,
+                        887
+                    ],
+                    "text": "Ciencias"
+                },
+                {
+                    "box": [
+                        653,
+                        840,
+                        763,
+                        887
+                    ],
+                    "text": "Naturales"
+                }
+            ],
+            "linking": [],
+            "id": 14
+        },
+        {
+            "box": [
+                1248,
+                840,
+                1262,
+                887
+            ],
+            "text": "3",
+            "label": "ciencias_naturales_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        840,
+                        1262,
+                        887
+                    ],
+                    "text": "3"
+                }
+            ],
+            "linking": [],
+            "id": 15
+        },
+        {
+            "box": [
+                553,
+                887,
+                894,
+                934
+            ],
+            "text": "Lengua Castellana y Literatura",
+            "label": "lengua_castellana",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        887,
+                        642,
+                        934
+                    ],
+                    "text": "Lengua"
+                },
+                {
+                    "box": [
+                        642,
+                        887,
+                        765,
+                        934
+                    ],
+                    "text": "Castellana"
+                },
+                {
+                    "box": [
+                        765,
+                        887,
+                        782,
+                        934
+                    ],
+                    "text": "y"
+                },
+                {
+                    "box": [
+                        782,
+                        887,
+                        892,
+                        934
+                    ],
+                    "text": "Literatura"
+                }
+            ],
+            "linking": [],
+            "id": 16
+        },
+        {
+            "box": [
+                1248,
+                887,
+                1262,
+                934
+            ],
+            "text": "7",
+            "label": "lengua_castellana_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        887,
+                        1262,
+                        934
+                    ],
+                    "text": "7"
+                }
+            ],
+            "linking": [],
+            "id": 17
+        },
+        {
+            "box": [
+                553,
+                934,
+                644,
+                982
+            ],
+            "text": "Biolog\u00eda",
+            "label": "biologia",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        934,
+                        644,
+                        982
+                    ],
+                    "text": "Biolog\u00eda"
+                }
+            ],
+            "linking": [],
+            "id": 18
+        },
+        {
+            "box": [
+                1248,
+                934,
+                1262,
+                982
+            ],
+            "text": "7",
+            "label": "biologia_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        934,
+                        1262,
+                        982
+                    ],
+                    "text": "7"
+                }
+            ],
+            "linking": [],
+            "id": 19
+        },
+        {
+            "box": [
+                553,
+                982,
+                621,
+                1029
+            ],
+            "text": "Media",
+            "label": "media",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        982,
+                        621,
+                        1029
+                    ],
+                    "text": "Media"
+                }
+            ],
+            "linking": [],
+            "id": 20
+        },
+        {
+            "box": [
+                1248,
+                982,
+                1262,
+                1029
+            ],
+            "text": "5",
+            "label": "media_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        982,
+                        1262,
+                        1029
+                    ],
+                    "text": "5"
+                }
+            ],
+            "linking": [],
+            "id": 21
+        },
+        {
+            "box": [
+                553,
+                1029,
+                677,
+                1076
+            ],
+            "text": "Inform\u00e1tica",
+            "label": "informatica",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        1029,
+                        677,
+                        1076
+                    ],
+                    "text": "Inform\u00e1tica"
+                }
+            ],
+            "linking": [],
+            "id": 22
+        },
+        {
+            "box": [
+                1248,
+                1029,
+                1262,
+                1076
+            ],
+            "text": "7",
+            "label": "informatica_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        1029,
+                        1262,
+                        1076
+                    ],
+                    "text": "7"
+                }
+            ],
+            "linking": [],
+            "id": 23
+        },
+        {
+            "box": [
+                553,
+                1076,
+                638,
+                1123
+            ],
+            "text": "Valores",
+            "label": "educacion_etico_civica",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        1076,
+                        638,
+                        1123
+                    ],
+                    "text": "Valores"
+                }
+            ],
+            "linking": [],
+            "id": 24
+        },
+        {
+            "box": [
+                1248,
+                1076,
+                1262,
+                1123
+            ],
+            "text": "5",
+            "label": "educacion_etico_civica_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        1076,
+                        1262,
+                        1123
+                    ],
+                    "text": "5"
+                }
+            ],
+            "linking": [],
+            "id": 25
+        },
+        {
+            "box": [
+                553,
+                1123,
+                648,
+                1171
+            ],
+            "text": "Filosof\u00eda",
+            "label": "filosofia",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        1123,
+                        648,
+                        1171
+                    ],
+                    "text": "Filosof\u00eda"
+                }
+            ],
+            "linking": [],
+            "id": 26
+        },
+        {
+            "box": [
+                1248,
+                1123,
+                1262,
+                1171
+            ],
+            "text": "6",
+            "label": "filosofia_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        1123,
+                        1262,
+                        1171
+                    ],
+                    "text": "6"
+                }
+            ],
+            "linking": [],
+            "id": 27
+        },
+        {
+            "box": [
+                553,
+                1171,
+                638,
+                1218
+            ],
+            "text": "Historia",
+            "label": "geografia_e_historia",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        1171,
+                        638,
+                        1218
+                    ],
+                    "text": "Historia"
+                }
+            ],
+            "linking": [],
+            "id": 28
+        },
+        {
+            "box": [
+                1248,
+                1171,
+                1262,
+                1218
+            ],
+            "text": "9",
+            "label": "geografia_e_historia_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        1171,
+                        1262,
+                        1218
+                    ],
+                    "text": "9"
+                }
+            ],
+            "linking": [],
+            "id": 29
+        },
+        {
+            "box": [
+                553,
+                1218,
+                632,
+                1265
+            ],
+            "text": "M\u00fasica",
+            "label": "musica",
+            "words": [
+                {
+                    "box": [
+                        553,
+                        1218,
+                        632,
+                        1265
+                    ],
+                    "text": "M\u00fasica"
+                }
+            ],
+            "linking": [],
+            "id": 30
+        },
+        {
+            "box": [
+                1248,
+                1218,
+                1262,
+                1265
+            ],
+            "text": "9",
+            "label": "musica_answer",
+            "words": [
+                {
+                    "box": [
+                        1248,
+                        1218,
+                        1262,
+                        1265
+                    ],
+                    "text": "9"
+                }
+            ],
+            "linking": [],
+            "id": 31
+        },
+        {
+            "box": [
+                800,
+                1265,
+                1091,
+                1312
+            ],
+            "text": "Nota Media (sin optativas)",
+            "label": "media",
+            "words": [
+                {
+                    "box": [
+                        800,
+                        1265,
+                        859,
+                        1312
+                    ],
+                    "text": "Nota"
+                },
+                {
+                    "box": [
+                        859,
+                        1265,
+                        932,
+                        1312
+                    ],
+                    "text": "Media"
+                },
+                {
+                    "box": [
+                        932,
+                        1265,
+                        977,
+                        1312
+                    ],
+                    "text": "(sin"
+                },
+                {
+                    "box": [
+                        977,
+                        1265,
+                        1090,
+                        1312
+                    ],
+                    "text": "optativas)"
+                }
+            ],
+            "linking": [],
+            "id": 32
+        },
+        {
+            "box": [
+                1238,
+                1265,
+                1272,
+                1312
+            ],
+            "text": "6.3",
+            "label": "media_answer",
+            "words": [
+                {
+                    "box": [
+                        1238,
+                        1265,
+                        1272,
+                        1312
+                    ],
+                    "text": "6.3"
+                }
+            ],
+            "linking": [],
+            "id": 33
+        },
+        {
+            "box": [
+                86,
+                1375,
+                702,
+                1423
+            ],
+            "text": "Excelente comportamiento en Econom\u00eda, nota: 0. ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        86,
+                        1375,
+                        217,
+                        1423
+                    ],
+                    "text": "Excelente"
+                },
+                {
+                    "box": [
+                        217,
+                        1375,
+                        423,
+                        1423
+                    ],
+                    "text": "comportamiento"
+                },
+                {
+                    "box": [
+                        423,
+                        1375,
+                        461,
+                        1423
+                    ],
+                    "text": "en"
+                },
+                {
+                    "box": [
+                        461,
+                        1375,
+                        601,
+                        1423
+                    ],
+                    "text": "Econom\u00eda,"
+                },
+                {
+                    "box": [
+                        601,
+                        1375,
+                        670,
+                        1423
+                    ],
+                    "text": "nota:"
+                },
+                {
+                    "box": [
+                        670,
+                        1375,
+                        700,
+                        1423
+                    ],
+                    "text": "0."
+                }
+            ],
+            "linking": [],
+            "id": 34
+        },
+        {
+            "box": [
+                86,
+                1466,
+                1387,
+                1513
+            ],
+            "text": "Igualmente certifico que la alumna ha estado escolorizada en 3\u00ba de la ESO, en el curso acad\u00e9mico 2023. ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        86,
+                        1466,
+                        232,
+                        1513
+                    ],
+                    "text": "Igualmente"
+                },
+                {
+                    "box": [
+                        232,
+                        1466,
+                        335,
+                        1513
+                    ],
+                    "text": "certifico"
+                },
+                {
+                    "box": [
+                        335,
+                        1466,
+                        389,
+                        1513
+                    ],
+                    "text": "que"
+                },
+                {
+                    "box": [
+                        389,
+                        1466,
+                        418,
+                        1513
+                    ],
+                    "text": "la"
+                },
+                {
+                    "box": [
+                        418,
+                        1466,
+                        516,
+                        1513
+                    ],
+                    "text": "alumna"
+                },
+                {
+                    "box": [
+                        516,
+                        1466,
+                        554,
+                        1513
+                    ],
+                    "text": "ha"
+                },
+                {
+                    "box": [
+                        554,
+                        1466,
+                        645,
+                        1513
+                    ],
+                    "text": "estado"
+                },
+                {
+                    "box": [
+                        645,
+                        1466,
+                        808,
+                        1513
+                    ],
+                    "text": "escolorizada"
+                },
+                {
+                    "box": [
+                        808,
+                        1466,
+                        846,
+                        1513
+                    ],
+                    "text": "en"
+                },
+                {
+                    "box": [
+                        846,
+                        1466,
+                        879,
+                        1513
+                    ],
+                    "text": "3\u00ba"
+                },
+                {
+                    "box": [
+                        879,
+                        1466,
+                        917,
+                        1513
+                    ],
+                    "text": "de"
+                },
+                {
+                    "box": [
+                        917,
+                        1466,
+                        946,
+                        1513
+                    ],
+                    "text": "la"
+                },
+                {
+                    "box": [
+                        946,
+                        1466,
+                        1020,
+                        1513
+                    ],
+                    "text": "ESO,"
+                },
+                {
+                    "box": [
+                        1020,
+                        1466,
+                        1058,
+                        1513
+                    ],
+                    "text": "en"
+                },
+                {
+                    "box": [
+                        1058,
+                        1466,
+                        1087,
+                        1513
+                    ],
+                    "text": "el"
+                },
+                {
+                    "box": [
+                        1087,
+                        1466,
+                        1162,
+                        1513
+                    ],
+                    "text": "curso"
+                },
+                {
+                    "box": [
+                        1162,
+                        1466,
+                        1304,
+                        1513
+                    ],
+                    "text": "acad\u00e9mico"
+                },
+                {
+                    "box": [
+                        1304,
+                        1466,
+                        1381,
+                        1513
+                    ],
+                    "text": "2023."
+                }
+            ],
+            "linking": [],
+            "id": 35
+        },
+        {
+            "box": [
+                86,
+                1557,
+                1433,
+                1604
+            ],
+            "text": "La alumna re\u00fane las condiciones necesarias para que le sea expedido el T\u00cdTULO DE GRADUADO EN ESO. ",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        86,
+                        1557,
+                        126,
+                        1604
+                    ],
+                    "text": "La"
+                },
+                {
+                    "box": [
+                        126,
+                        1557,
+                        224,
+                        1604
+                    ],
+                    "text": "alumna"
+                },
+                {
+                    "box": [
+                        224,
+                        1557,
+                        302,
+                        1604
+                    ],
+                    "text": "re\u00fane"
+                },
+                {
+                    "box": [
+                        302,
+                        1557,
+                        345,
+                        1604
+                    ],
+                    "text": "las"
+                },
+                {
+                    "box": [
+                        345,
+                        1557,
+                        499,
+                        1604
+                    ],
+                    "text": "condiciones"
+                },
+                {
+                    "box": [
+                        499,
+                        1557,
+                        641,
+                        1604
+                    ],
+                    "text": "necesarias"
+                },
+                {
+                    "box": [
+                        641,
+                        1557,
+                        704,
+                        1604
+                    ],
+                    "text": "para"
+                },
+                {
+                    "box": [
+                        704,
+                        1557,
+                        758,
+                        1604
+                    ],
+                    "text": "que"
+                },
+                {
+                    "box": [
+                        758,
+                        1557,
+                        787,
+                        1604
+                    ],
+                    "text": "le"
+                },
+                {
+                    "box": [
+                        787,
+                        1557,
+                        839,
+                        1604
+                    ],
+                    "text": "sea"
+                },
+                {
+                    "box": [
+                        839,
+                        1557,
+                        959,
+                        1604
+                    ],
+                    "text": "expedido"
+                },
+                {
+                    "box": [
+                        959,
+                        1557,
+                        988,
+                        1604
+                    ],
+                    "text": "el"
+                },
+                {
+                    "box": [
+                        988,
+                        1557,
+                        1094,
+                        1604
+                    ],
+                    "text": "T\u00cdTULO"
+                },
+                {
+                    "box": [
+                        1094,
+                        1557,
+                        1140,
+                        1604
+                    ],
+                    "text": "DE"
+                },
+                {
+                    "box": [
+                        1140,
+                        1557,
+                        1308,
+                        1604
+                    ],
+                    "text": "GRADUADO"
+                },
+                {
+                    "box": [
+                        1308,
+                        1557,
+                        1354,
+                        1604
+                    ],
+                    "text": "EN"
+                },
+                {
+                    "box": [
+                        1354,
+                        1557,
+                        1428,
+                        1604
+                    ],
+                    "text": "ESO."
+                }
+            ],
+            "linking": [],
+            "id": 36
+        },
+        {
+            "box": [
+                755,
+                1648,
+                1464,
+                1695
+            ],
+            "text": "Jefatura de Estudios del C. Nuestra Se\u00f1ora del Recuerdo",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        755,
+                        1648,
+                        863,
+                        1695
+                    ],
+                    "text": "Jefatura"
+                },
+                {
+                    "box": [
+                        863,
+                        1648,
+                        900,
+                        1695
+                    ],
+                    "text": "de"
+                },
+                {
+                    "box": [
+                        900,
+                        1648,
+                        1013,
+                        1695
+                    ],
+                    "text": "Estudios"
+                },
+                {
+                    "box": [
+                        1013,
+                        1648,
+                        1056,
+                        1695
+                    ],
+                    "text": "del"
+                },
+                {
+                    "box": [
+                        1056,
+                        1648,
+                        1090,
+                        1695
+                    ],
+                    "text": "C."
+                },
+                {
+                    "box": [
+                        1090,
+                        1648,
+                        1194,
+                        1695
+                    ],
+                    "text": "Nuestra"
+                },
+                {
+                    "box": [
+                        1194,
+                        1648,
+                        1290,
+                        1695
+                    ],
+                    "text": "Se\u00f1ora"
+                },
+                {
+                    "box": [
+                        1290,
+                        1648,
+                        1333,
+                        1695
+                    ],
+                    "text": "del"
+                },
+                {
+                    "box": [
+                        1333,
+                        1648,
+                        1460,
+                        1695
+                    ],
+                    "text": "Recuerdo"
+                }
+            ],
+            "linking": [],
+            "id": 37
+        },
+        {
+            "box": [
+                755,
+                1931,
+                1077,
+                1978
+            ],
+            "text": "Claudio S\u00e1nchez Santana",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        755,
+                        1931,
+                        855,
+                        1978
+                    ],
+                    "text": "Claudio"
+                },
+                {
+                    "box": [
+                        855,
+                        1931,
+                        968,
+                        1978
+                    ],
+                    "text": "S\u00e1nchez"
+                },
+                {
+                    "box": [
+                        968,
+                        1931,
+                        1076,
+                        1978
+                    ],
+                    "text": "Santana"
+                }
+            ],
+            "linking": [],
+            "id": 38
+        },
+        {
+            "box": [
+                755,
+                1978,
+                1086,
+                2026
+            ],
+            "text": "Madrid, a 13 del 3 de 2023",
+            "label": "other",
+            "words": [
+                {
+                    "box": [
+                        755,
+                        1978,
+                        855,
+                        2026
+                    ],
+                    "text": "Madrid,"
+                },
+                {
+                    "box": [
+                        855,
+                        1978,
+                        877,
+                        2026
+                    ],
+                    "text": "a"
+                },
+                {
+                    "box": [
+                        877,
+                        1978,
+                        914,
+                        2026
+                    ],
+                    "text": "13"
+                },
+                {
+                    "box": [
+                        914,
+                        1978,
+                        957,
+                        2026
+                    ],
+                    "text": "del"
+                },
+                {
+                    "box": [
+                        957,
+                        1978,
+                        979,
+                        2026
+                    ],
+                    "text": "3"
+                },
+                {
+                    "box": [
+                        979,
+                        1978,
+                        1016,
+                        2026
+                    ],
+                    "text": "de"
+                },
+                {
+                    "box": [
+                        1016,
+                        1978,
+                        1084,
+                        2026
+                    ],
+                    "text": "2023"
+                }
+            ],
+            "linking": [],
+            "id": 39
+        }
+    ]
+}

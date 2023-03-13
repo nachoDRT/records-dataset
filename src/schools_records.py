@@ -9,6 +9,7 @@ import string
 import matplotlib.pyplot as plt
 import copy
 from statistics import mean
+from pathlib import Path
 
 
 EVAL_FACTOR = 0.2
@@ -60,7 +61,7 @@ def show_image(*, img: np.array):
     height = int(img.shape[0] * scale_percent / 100)
     dim = (width, height)
 
-    image_copy = cv2.resize(img, dim, interpolation = cv2.INTER_AREA)
+    image_copy = cv2.resize(img, dim, interpolation=cv2.INTER_AREA)
 
     cv2.imshow("Image", image_copy)
     cv2.waitKey(0)
@@ -69,30 +70,30 @@ def show_image(*, img: np.array):
 
 def save_layout(*, img: np.array, img_name: str, path: str, dict: dict):
 
-    list_of_dicts = dict['form']
+    list_of_dicts = dict["form"]
 
     for text_dict in list_of_dicts:
 
-        coords = text_dict['box']
-        start_point =  (coords[0], coords[1])
+        coords = text_dict["box"]
+        start_point = (coords[0], coords[1])
         end_point = (coords[2], coords[3])
         color = (0, 0, 255)
         cv2.rectangle(img, start_point, end_point, color, 1)
 
-        for word_dict in text_dict['words']:
-            
-            coords = word_dict['box']
-            start_point =  (coords[0], coords[1])
+        for word_dict in text_dict["words"]:
+
+            coords = word_dict["box"]
+            start_point = (coords[0], coords[1])
             end_point = (coords[2], coords[3])
             color = (120, 120, 0)
             cv2.rectangle(img, start_point, end_point, color, 1)
 
-    img_name = ''.join([img_name, '_layout.png'])
+    img_name = "".join([img_name, "_layout.png"])
     img_path = os.path.join(path, img_name)
     cv2.imwrite(filename=img_path, img=img)
 
 
-def modify_path_bc_lang(*, info: str, lang: str, file_type: str):
+def modify_path_bc_lang(*, info: str, lang: str, file_type: str, info_type: str):
 
     # Modify path according to language
     if lang == "eng":
@@ -100,13 +101,16 @@ def modify_path_bc_lang(*, info: str, lang: str, file_type: str):
 
     elif lang == "esp":
         info_to_load = "".join([info, "_spanish"])
-    
+
     else:
         warn_message = "".join(["WARNING: ", lang, "is not implemented yet."])
         print(warn_message)
 
-    path = os.path.join(os.getcwd(), "".join([info_to_load, ".", file_type]))
-    
+    cwd_parent = Path(os.getcwd()).parent
+    path = os.path.join(
+        cwd_parent, "res", info_type, "".join([info_to_load, ".", file_type])
+    )
+
     return path
 
 
@@ -114,9 +118,11 @@ def load_school_info(*, lang: str):
 
     # Modify path according to language
     info_to_load = "schools"
-    schools_json_path = modify_path_bc_lang(info=info_to_load, lang=lang, file_type="json")
+    schools_json_path = modify_path_bc_lang(
+        info=info_to_load, lang=lang, file_type="json", info_type="schools"
+    )
 
-    with open(schools_json_path, 'r') as json_file:
+    with open(schools_json_path, "r") as json_file:
         data = json_file.read()
 
     schools_info = json.loads(data)
@@ -129,9 +135,11 @@ def load_subjects_semantinc(*, lang: str):
 
     # Modify path according to language
     info_to_load = "subjects"
-    subjects_semantic_json = modify_path_bc_lang(info=info_to_load, lang=lang, file_type="json")
+    subjects_semantic_json = modify_path_bc_lang(
+        info=info_to_load, lang=lang, file_type="json", info_type="subjects"
+    )
 
-    with open(subjects_semantic_json, 'r') as subjects_json_file:
+    with open(subjects_semantic_json, "r") as subjects_json_file:
         data = subjects_json_file.read()
 
     subjects_semantic = json.loads(data)
@@ -142,11 +150,13 @@ def load_subjects_semantinc(*, lang: str):
 
 def load_names(*, info_to_load: str, lang: str):
 
-    txt_path = modify_path_bc_lang(info=info_to_load, lang=lang, file_type="txt")
+    txt_path = modify_path_bc_lang(
+        info=info_to_load, lang=lang, file_type="txt", info_type=info_to_load
+    )
 
     names = []
-    with open(txt_path, 'r') as f:
-        csvreader = csv.reader(f, delimiter=' ')
+    with open(txt_path, "r") as f:
+        csvreader = csv.reader(f, delimiter=" ")
         for row in csvreader:
             names.append(row[0])
 
@@ -154,11 +164,11 @@ def load_names(*, info_to_load: str, lang: str):
 
 
 def get_name(*, names: list = None, family_names: list = None):
-    
+
     name = random.choice(names)
     family_name_1 = random.choice(family_names)
     family_name_2 = random.choice(family_names)
-    persons_name = ''.join([name, " ", family_name_1, " ", family_name_2])
+    persons_name = "".join([name, " ", family_name_1, " ", family_name_2])
 
     return persons_name
 
@@ -167,20 +177,19 @@ def create_head_studies_profile(*, names: list = None, family_names: list = None
 
     person_name = get_name(names=names, family_names=family_names)
     return person_name
-    
-    
+
+
 # TODO Ask Boal how to manage the arguments in 'create_secretary_profile'.
 # The arguments do nothing in this functions, instead they are parsed to another one.
 def create_secretary_profile(*, names: list = None, family_names: list = None):
-    
+
     person_name = get_name(names=names, family_names=family_names)
     return person_name
 
 
-
 def create_student_profile(*, names: list = None, family_names: list = None):
 
-    """ Create a dictionary with the header information of the student.
+    """Create a dictionary with the header information of the student.
 
     Args:
         names (list, optional): A list with usual names in Spain. Defaults to None.
@@ -189,16 +198,19 @@ def create_student_profile(*, names: list = None, family_names: list = None):
     Returns:
         student_profile (dict): A dict with the header info.
     """
-    
+
     student_name = get_name(names=names, family_names=family_names)
-    
-    dni = ''.join([str(random.randrange(0, 99999999)).zfill(8), " - ", random.choice(string.ascii_uppercase)])
-    
-    student_profile = {
-        'Nombre': student_name,
-        'Documento Nacional de Identidad': dni
-    }
-    
+
+    dni = "".join(
+        [
+            str(random.randrange(0, 99999999)).zfill(8),
+            " - ",
+            random.choice(string.ascii_uppercase),
+        ]
+    )
+
+    student_profile = {"Nombre": student_name, "Documento Nacional de Identidad": dni}
+
     return student_profile, student_name
 
 
@@ -211,9 +223,9 @@ def get_alpha_grade(*, numeric_grade: int, lang: str):
             alpha = "Pass: "
         elif numeric_grade < 9:
             alpha = "Good: "
-        else: 
+        else:
             alpha = "Outstanding: "
-    
+
     elif lang == "esp":
         if numeric_grade < 5:
             alpha = "Suspenso: "
@@ -221,9 +233,9 @@ def get_alpha_grade(*, numeric_grade: int, lang: str):
             alpha = "Bien: "
         elif numeric_grade < 9:
             alpha = "Notable: "
-        else: 
+        else:
             alpha = "Sobresaliente: "
-    
+
     else:
         warn_message = "".join(["WARNING: ", lang, "is not implemented yet."])
         print(warn_message)
@@ -231,14 +243,16 @@ def get_alpha_grade(*, numeric_grade: int, lang: str):
     return alpha
 
 
-def get_displacement(*, mean: float, std_dev: float, length: int, lim_sup: float = None):
+def get_displacement(
+    *, mean: float, std_dev: float, length: int, lim_sup: float = None
+):
 
     dis_array = np.random.normal(mean, std_dev, size=(1, length))
     dis_array = [coord if coord >= 0 else 0.1 for coord in dis_array[0]]
 
     if lim_sup:
         dis_array = [coord if coord <= lim_sup else lim_sup for coord in dis_array]
-    
+
     return dis_array
 
 
@@ -249,15 +263,31 @@ def get_table_displacements(*, num_students: int):
 
     train_samples_num = int(TRAIN_FACTOR * num_students)
     # TODO 'lim_sup' should be f(total_table_width)
-    train_table_metrics['x_table_displacement'] = get_displacement(mean=MEAN_DIS_TRAIN, std_dev=STD_DEV_DIS_TRAIN, length=train_samples_num, lim_sup=92)
-    train_table_metrics['y_table_displacement'] = get_displacement(mean=MEAN_DIS_TRAIN_Y, std_dev=STD_DEV_DIS_TRAIN_Y, length=train_samples_num)
-    eval_table_metrics['x_table_displacement'] = get_displacement(mean=MEAN_DIS_EVAL, std_dev=STD_DEV_DIS_EVAL, length=num_students-train_samples_num, lim_sup=92)
-    eval_table_metrics['y_table_displacement'] = get_displacement(mean=MEAN_DIS_EVAL_Y, std_dev=STD_DEV_DIS_EVAL_Y, length=num_students-train_samples_num)
+    train_table_metrics["x_table_displacement"] = get_displacement(
+        mean=MEAN_DIS_TRAIN,
+        std_dev=STD_DEV_DIS_TRAIN,
+        length=train_samples_num,
+        lim_sup=92,
+    )
+    train_table_metrics["y_table_displacement"] = get_displacement(
+        mean=MEAN_DIS_TRAIN_Y, std_dev=STD_DEV_DIS_TRAIN_Y, length=train_samples_num
+    )
+    eval_table_metrics["x_table_displacement"] = get_displacement(
+        mean=MEAN_DIS_EVAL,
+        std_dev=STD_DEV_DIS_EVAL,
+        length=num_students - train_samples_num,
+        lim_sup=92,
+    )
+    eval_table_metrics["y_table_displacement"] = get_displacement(
+        mean=MEAN_DIS_EVAL_Y,
+        std_dev=STD_DEV_DIS_EVAL_Y,
+        length=num_students - train_samples_num,
+    )
 
-    x_displacement = copy.deepcopy(train_table_metrics['x_table_displacement'])
-    x_displacement.extend(eval_table_metrics['x_table_displacement'])
-    y_displacement = copy.deepcopy(train_table_metrics['y_table_displacement'])
-    y_displacement.extend(eval_table_metrics['y_table_displacement'])
+    x_displacement = copy.deepcopy(train_table_metrics["x_table_displacement"])
+    x_displacement.extend(eval_table_metrics["x_table_displacement"])
+    y_displacement = copy.deepcopy(train_table_metrics["y_table_displacement"])
+    y_displacement.extend(eval_table_metrics["y_table_displacement"])
 
     return train_table_metrics, eval_table_metrics, x_displacement, y_displacement
 
@@ -265,9 +295,13 @@ def get_table_displacements(*, num_students: int):
 def get_alpha_numeric_proportion(*, num_students: int):
 
     train_samples_num = int(TRAIN_FACTOR * num_students)
-    train_alpha_numeric_proportion = [random.choice([True, False]) for _ in range(train_samples_num)]
-    eval_alpha_numeric_proportion = [random.choice([True, False]) for _ in range(num_students-train_samples_num)]
-    
+    train_alpha_numeric_proportion = [
+        random.choice([True, False]) for _ in range(train_samples_num)
+    ]
+    eval_alpha_numeric_proportion = [
+        random.choice([True, False]) for _ in range(num_students - train_samples_num)
+    ]
+
     alpha_num = copy.deepcopy(train_alpha_numeric_proportion)
     alpha_num.extend(eval_alpha_numeric_proportion)
 
@@ -276,15 +310,15 @@ def get_alpha_numeric_proportion(*, num_students: int):
 
 def create_table_position_plots(*, train_data: list, eval_data: list):
 
-    axis = 'x'
+    axis = "x"
 
     for train, test in zip(train_data, eval_data):
 
         plt.clf()
         plt.style.use("ggplot")
 
-        if axis == 'x':
-            _, bins = np.histogram(train, bins=10, range=(0,100))
+        if axis == "x":
+            _, bins = np.histogram(train, bins=10, range=(0, 100))
             fig, (ax1, ax2) = plt.subplots(2, sharex=True)
             orientation = "horizontal"
             compare = "vertical"
@@ -295,7 +329,7 @@ def create_table_position_plots(*, train_data: list, eval_data: list):
             ax2_y_label = "Number of samples"
 
         else:
-            _, bins = np.histogram(train, bins=10, range=(0,20))
+            _, bins = np.histogram(train, bins=10, range=(0, 20))
             fig, (ax1, ax2) = plt.subplots(1, 2, sharey=True)
             orientation = "vertical"
             compare = "horizontal"
@@ -304,34 +338,37 @@ def create_table_position_plots(*, train_data: list, eval_data: list):
             ax1_y_label = "Displacement [mm]"
             ax2_x_label = "Number of samples"
             ax2_y_label = ""
-        
-        fig.suptitle("".join(['Table position: ', orientation, ' comparison']), fontsize=14)
+
+        fig.suptitle(
+            "".join(["Table position: ", orientation, " comparison"]), fontsize=14
+        )
 
         ax1.set_title("Train dataset", fontsize=10)
         ax2.set_title("Eval. dataset", fontsize=10)
 
         ax1.hist(train, bins=bins, orientation=compare)
-        ax2.hist(test, bins=bins, orientation=compare, color='green')
+        ax2.hist(test, bins=bins, orientation=compare, color="green")
 
         ax1.set_xlabel(ax1_x_label, fontsize=8)
         ax1.set_ylabel(ax1_y_label, fontsize=8)
         ax2.set_xlabel(ax2_x_label, fontsize=8)
         ax2.set_ylabel(ax2_y_label, fontsize=8)
 
-
         plt.savefig(os.path.join(os.getcwd(), "".join([axis, "_table_pos.png"])))
         plt.close()
 
-        axis = 'y'
+        axis = "y"
 
 
 # TODO
 def create_num_subjects_per_doc_plot():
     pass
 
+
 # TODO
 def create_subjects_histogram():
     pass
+
 
 def create_grades_per_subject_plot(*, data: dict):
 
@@ -350,27 +387,35 @@ def create_grades_per_subject_plot(*, data: dict):
         area.append(len(data[label]))
         x_tics.append(label)
 
-        if len(list(data))-1 == i+1:
+        if len(list(data)) - 1 == i + 1:
             break
 
     colors = np.random.rand(len(x_tics))
-    plt.xticks(x, x_tics, rotation = 90)
-    plt.title('Mean-Grade per subject')
-    plt.ylabel('Grades')
+    plt.xticks(x, x_tics, rotation=90)
+    plt.title("Mean-Grade per subject")
+    plt.ylabel("Grades")
     plt.scatter(x, y, s=area, c=colors, alpha=0.5)
     plt.tight_layout()
     plt.savefig(os.path.join(os.getcwd(), "grades_per_subject.png"))
     plt.close()
 
+
 def compute_metrics(*, metrics: dict):
 
-    table_train = [metrics["train"]["x_table_displacement"], metrics["train"]["y_table_displacement"]]
-    table_eval = [metrics["eval"]["x_table_displacement"], metrics["eval"]["y_table_displacement"]]
+    table_train = [
+        metrics["train"]["x_table_displacement"],
+        metrics["train"]["y_table_displacement"],
+    ]
+    table_eval = [
+        metrics["eval"]["x_table_displacement"],
+        metrics["eval"]["y_table_displacement"],
+    ]
 
     create_table_position_plots(train_data=table_train, eval_data=table_eval)
     create_grades_per_subject_plot(data=metrics["grades_per_subjects"])
     create_subjects_histogram()
     create_num_subjects_per_doc_plot()
+
 
 def update_grades_per_subject_metrics(*, metrics: dict, new_grades: dict):
 

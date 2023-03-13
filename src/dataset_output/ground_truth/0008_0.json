@@ -1,0 +1,32 @@
+{
+    "ciencias_naturales": {
+        "grade": 0
+    },
+    "informatica": {
+        "grade": 10
+    },
+    "matematicas": {
+        "grade": 3
+    },
+    "economia": {
+        "grade": 7
+    },
+    "griego": {
+        "grade": 5
+    },
+    "educacion_etico_civica": {
+        "grade": 6
+    },
+    "lengua_castellana": {
+        "grade": 1
+    },
+    "historia": {
+        "grade": 5
+    },
+    "biologia_y_geologia": {
+        "grade": 0
+    },
+    "aleman": {
+        "grade": 7
+    }
+}

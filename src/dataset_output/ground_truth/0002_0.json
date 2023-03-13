@@ -1,0 +1,32 @@
+{
+    "biologia_y_geologia": {
+        "grade": 2
+    },
+    "religion": {
+        "grade": 6
+    },
+    "latin": {
+        "grade": 0
+    },
+    "frances": {
+        "grade": 1
+    },
+    "musica": {
+        "grade": 8
+    },
+    "ciencias_del_mundo": {
+        "grade": 9
+    },
+    "lengua_castellana": {
+        "grade": 10
+    },
+    "fisica_y_quimica": {
+        "grade": 0
+    },
+    "informatica": {
+        "grade": 3
+    },
+    "historia": {
+        "grade": 10
+    }
+}

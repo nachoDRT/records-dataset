@@ -1,0 +1,9 @@
+src/dataset_ouput
+src/synthetic_pdf_docs
+src/synthetic_png_docs
+src/dataset_metrics.json
+src/grades_per_subject.png
+src/x_table_pos.png
+src/y_table_pos.png
+src/__pycache__
+

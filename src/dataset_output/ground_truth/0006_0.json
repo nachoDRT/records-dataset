@@ -1,0 +1,32 @@
+{
+    "educacion_plastica": {
+        "grade": 6
+    },
+    "frances": {
+        "grade": 5
+    },
+    "griego": {
+        "grade": 1
+    },
+    "biologia_y_geologia": {
+        "grade": 1
+    },
+    "lengua_castellana": {
+        "grade": 9
+    },
+    "historia": {
+        "grade": 10
+    },
+    "ciencias_del_mundo": {
+        "grade": 6
+    },
+    "educacion_etico_civica": {
+        "grade": 0
+    },
+    "aleman": {
+        "grade": 0
+    },
+    "biologia": {
+        "grade": 7
+    }
+}
