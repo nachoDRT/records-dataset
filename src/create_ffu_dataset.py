@@ -11,11 +11,11 @@ ENGLISH = False
 
 if ENGLISH:
     LANGUAGE = "eng"
-    ACADEMIC_YEARS = ["3rd highschool year"]
+    ACADEMIC_YEARS = ["3rd highschool year", "4th highschool year"]
 
 else:
     LANGUAGE = "esp"
-    ACADEMIC_YEARS = ["3º de la ESO"]
+    ACADEMIC_YEARS = ["3º de la ESO", "4º de la ESO"]
 
 PDF_DOCS_FOLDER = os.path.join(os.getcwd(), "synthetic_pdf_docs")
 PNG_DOCS_FOLDER = os.path.join(os.getcwd(), "synthetic_png_docs")
@@ -25,10 +25,10 @@ DSET_ANNOTATIONS_FOLDER = os.path.join(os.getcwd(), "dataset_output", "annotatio
 DSET_GROUND_TRUTH_FOLDER = os.path.join(os.getcwd(), "dataset_output", "ground_truth")
 
 STUDENTS = 1000
-EDUCATION_LEVEL = ["EDUCACIÓN SECUNDARIA OBLIGATORIA"]
 
+EDUCATION_LEVEL = ["EDUCACIÓN SECUNDARIA OBLIGATORIA"]
 # SCHOOL_NICKNAME(s) ara available in 'res/schools/schools_*language*.json'
-SCHOOL_NICKNAME = "recuerdo"
+SCHOOL_NICKNAME = "fundacion"
 JUST_TABLE = False
 
 DOCS_Z_FILL = 4
@@ -84,7 +84,7 @@ if __name__ == "__main__":
         )
         pdf_instance.school_setter(school, secretary_name, student_name)
         pdf_instance.header_features_setter(
-            header_rect=True,
+            header_rect=False,
             header_badge=True,
             header_title=False,
             header_info=True,

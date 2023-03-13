@@ -91,7 +91,10 @@
             },
             "table": {
                 "cells": "alpha_numeric",
-                "column_sizes": [70, 40],
+                "column_sizes": [
+                    70,
+                    40
+                ],
                 "column_questions": [
                     {
                         "text": "ÁREAS"
@@ -138,24 +141,24 @@
                     }
                 ],
                 "edges": {
-                        "column_questions": "all",
-                        "row_questions": "all",
-                        "cells": "all"
+                    "column_questions": "all",
+                    "row_questions": "all",
+                    "cells": "all"
                 },
                 "styles": {
-                        "column_questions": "B",
-                        "row_questions": "",
-                        "cells": ""
+                    "column_questions": "B",
+                    "row_questions": "",
+                    "cells": ""
                 },
                 "sizes": {
-                        "column_questions": 12,
-                        "row_questions": 9,
-                        "cells": 9
+                    "column_questions": 12,
+                    "row_questions": 9,
+                    "cells": 9
                 },
                 "aligns": {
-                        "column_questions": "C",
-                        "row_questions": "L",
-                        "cells": "C"
+                    "column_questions": "C",
+                    "row_questions": "L",
+                    "cells": "C"
                 }
             }
         },
@@ -190,8 +193,50 @@
             "phone_number": 914134125,
             "web": "www.fomentofundacion.com",
             "email": "BachilleratoFF@fomento.edu",
-            "text_1": "-",
-            "text_2": "-"
+            "text_1": {
+                "class": "relevant",
+                "style": "B",
+                "size": 10,
+                "align": "C",
+                "fragment": "CERTIFICACIÓN ACADÉMICA DE BACHILLERATO"
+            },
+            "text_2": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "Don/Doña {}, Secretaria/o del centro Fomento Fundación  Cod. Centro: 28030745",
+                "gaps": [
+                    "secretary_name"
+                ]
+            },
+            "text_3": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "CERTIFICA: Que {}, , ha cursado los estudios de Bachillerato y obtenido las calificaciones:",
+                "gaps": [
+                    "student_name"
+                ]
+            },
+            "text_4": {
+                "class": "relevant",
+                "style": "B",
+                "size": 10,
+                "align": "L",
+                "fragment": "Media de BACHILLERATO"
+            },
+            "text_5": {
+                "class": "regular",
+                "style": "",
+                "size": 10,
+                "align": "L",
+                "fragment": "y para que conste, y surta los efectos oportunos, se firma en Madrid, a {}.",
+                "gaps": [
+                    "date_now"
+                ]
+            }
         },
         {
             "name": "-",

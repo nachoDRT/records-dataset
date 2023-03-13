@@ -1,7 +1,7 @@
 # records-dataset
 
 ## Introduction
-A pipeline to create labelled images datasets. The record-dataset is about schools' transcripts-of-records. Dataset includes images in '.png' format (additionally, a '.pdf' file is included). A corresponding '.json' file gathers the label information for every '.png' image.
+Under development. A pipeline to create labelled images datasets. The record-dataset is about schools' transcripts-of-records. Dataset includes images in '.png' format (additionally, a '.pdf' file is included). A corresponding '.json' file gathers the label information for every '.png' image.
 
 An example of a generated '.png' image:
 
