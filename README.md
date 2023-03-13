@@ -11,18 +11,3 @@ An example of a generated '.png' image:
 An example of some generic labelled data (from a '.json' file):
 
 <img src="https://user-images.githubusercontent.com/67972115/213144239-4c598c46-124d-4b2b-8520-45aa6b4cbaec.png" width=35% height=35%>
-
-## How to start
-
-Download all files and arrange your project directory as follows:
-
-- /project_folder
-  - records_dataset.py
-  - subjects.json
-  - schools.json
-    - /badges
-      - recuerdo_badge.png
-    - /signatures
-      - this_is_a_signature.png
-      
-Run records_dataset.py
